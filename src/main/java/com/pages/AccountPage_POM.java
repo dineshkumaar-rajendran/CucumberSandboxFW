@@ -29,7 +29,7 @@ public class AccountPage_POM {
 	}
 
 	public List<String> getAcountList() {
-		List<String> AccountList = new ArrayList<>();
+		List<String> AccountList = new ArrayList<String>();
 		List<WebElement> accountheaderList = driver.findElements(Account_Sections);
 		for (WebElement ele : accountheaderList) {
 			String text = ele.getText();
