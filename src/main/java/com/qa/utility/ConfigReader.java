@@ -12,7 +12,7 @@ public class ConfigReader {
 	public Properties init_prop() {
 		prop = new Properties();
 		try {
-			FileInputStream fis = new FileInputStream("C:\\Users\\625730\\git\\CucumberSandboxFW\\CucumberSandboxFW\\src\\test\\resources\\config\\config.properties");
+			FileInputStream fis = new FileInputStream("C:\\Users\\Dines\\eclipse-workspace\\CucumberSandboxFW\\src\\test\\resources\\config\\config.properties");
 			prop.load(fis);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block

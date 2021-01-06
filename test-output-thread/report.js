@@ -1,59 +1,59 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "1411e51c-dd3d-45e1-8abc-1b7ab0db3272",
-    "feature": "Account feature page",
-    "scenario": "Account page title",
-    "start": 1609848378896,
-    "group": 1,
-    "content": "",
-    "tags": "",
-    "end": 1609848379495,
-    "className": "failed"
-  },
-  {
-    "id": "dcdb0fb0-aa13-4b12-9eb5-0c9d3c4fe6e0",
-    "feature": "Account feature page",
-    "scenario": "Account section count",
-    "start": 1609848379505,
-    "group": 1,
-    "content": "",
-    "tags": "",
-    "end": 1609848380207,
-    "className": "failed"
-  },
-  {
-    "id": "8c765deb-b7ec-4431-909f-87a01ce50744",
+    "id": "e109b25e-2566-4260-95cc-7e713efd6e92",
     "feature": "Login Page feature",
     "scenario": "Login Page title",
-    "start": 1609848367495,
+    "start": 1609906769226,
     "group": 1,
     "content": "",
     "tags": "",
-    "end": 1609848377605,
+    "end": 1609906795971,
     "className": "failed"
   },
   {
-    "id": "0f48b345-27c8-4f67-80c9-59031ebcf10f",
+    "id": "28a377bb-4640-4671-8a5f-dd6b573e142b",
+    "feature": "Account feature page",
+    "scenario": "Account page title",
+    "start": 1609906855951,
+    "group": 1,
+    "content": "",
+    "tags": "",
+    "end": 1609906887074,
+    "className": "passed"
+  },
+  {
+    "id": "04c87915-dccd-4082-a64c-4a377c23a6f6",
     "feature": "Login Page feature",
     "scenario": "Forget password link",
-    "start": 1609848377624,
+    "start": 1609906796005,
     "group": 1,
     "content": "",
     "tags": "",
-    "end": 1609848378256,
+    "end": 1609906832478,
     "className": "failed"
   },
   {
-    "id": "c7f4d87b-0c1b-4d44-b47e-993d07c257fa",
-    "feature": "Login Page feature",
-    "scenario": "Login with correct credentials",
-    "start": 1609848378279,
+    "id": "f6c2f516-2142-4062-9d1a-0bd34fe41f79",
+    "feature": "Account feature page",
+    "scenario": "Account section count",
+    "start": 1609906887092,
     "group": 1,
     "content": "",
     "tags": "",
-    "end": 1609848378884,
-    "className": "failed"
+    "end": 1609906910023,
+    "className": "passed"
+  },
+  {
+    "id": "e59a4a56-1454-4749-8ae1-5c33e2d3b630",
+    "feature": "Login Page feature",
+    "scenario": "Login with correct credentials",
+    "start": 1609906832536,
+    "group": 1,
+    "content": "",
+    "tags": "",
+    "end": 1609906855925,
+    "className": "passed"
   }
 ]);
 CucumberHTML.timelineGroups.pushArray([
