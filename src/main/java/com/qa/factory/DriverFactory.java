@@ -9,7 +9,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class DriverFactory {
 
 	public WebDriver driver;
-	public static ThreadLocal<WebDriver> tldriver = new ThreadLocal<>();
+	public static ThreadLocal<WebDriver> tldriver = new ThreadLocal<WebDriver>();
 
 	public WebDriver init_driver(String browser) {
 		System.out.println("Browser value is :" + browser);
